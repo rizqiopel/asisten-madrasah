@@ -1,0 +1,50 @@
+{
+  "name": "asisten-madrasah",
+  "version": "1.0.0",
+  "description": "Accountable AI assistant for madrasah operations: RBAC-6, source citation, and Smart Task Handler with human approval.",
+  "author": { "name": "Rizqi", "email": "rizqi@example.com" },
+  "agents": ["./agents/asisten-madrasah.md"],
+  "skills": ["./skills/kb-madrasah"],
+
+  "expertType": "agent",
+  "agentName": "asisten-madrasah",
+
+  "displayName": {
+    "en": "Asisten Madrasah",
+    "zh": "伊斯兰学校助手"
+  },
+  "profession": {
+    "en": "Madrasah Operations & Academic Assistant",
+    "zh": "伊斯兰学校运营与学术助理"
+  },
+  "displayDescription": {
+    "en": "Answers academic, administrative and financial questions for MTsN 1 Jakarta with strict RBAC, source citation, and human-confirmed task execution.",
+    "zh": "为雅加达伊斯兰学校提供学术与行政问答，严格遵循六级权限，引用来源，并在人工确认后执行任务。"
+  },
+  "avatar": "avatars/asisten-madrasah.png",
+  "categoryId": "09-OperationsHR",
+  "defaultInitPrompt": {
+    "en": "Saya siswa kelas 7A. Berapa SPP saya dan kapan ujian PTS?",
+    "zh": "我是 7A 班学生。我的 SPP 是多少？PTS 考试什么时候？"
+  },
+  "plugin": "asisten-madrasah",
+  "tags": [
+    { "en": "Education", "zh": "教育" },
+    { "en": "RBAC", "zh": "权限控制" },
+    { "en": "Task Automation", "zh": "任务自动化" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Saya siswa kelas 7A. Berapa SPP saya dan kapan ujian PTS?",
+      "zh": "我是 7A 班学生。我的 SPP 是多少？PTS 考试什么时候？"
+    },
+    {
+      "en": "Saya kepala madrasah. Tolong pecah pesan ini jadi tugas: kirim notulen ke Pak Ahmad, jadwalin rapat Jumat siang, update data siswa baru.",
+      "zh": "我是校长。请把这条消息拆成任务：把会议纪要发给 Ahmad 老师、安排周五中午开会、更新新生数据。"
+    },
+    {
+      "en": "Saya operator. Tampilkan audit log interaksi hari ini.",
+      "zh": "我是运营人员。请显示今天的交互审计日志。"
+    }
+  ]
+}

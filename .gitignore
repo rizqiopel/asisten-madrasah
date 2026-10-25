@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Log runtime — dihasilkan saat agent dipakai
+logs/*.log
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# WorkBuddy lokal
+.workbuddy-ai/
+.workbuddy/
+
+# Arsip
+*.zip

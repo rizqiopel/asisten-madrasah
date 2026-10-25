@@ -1,0 +1,17 @@
+[5 Okt 2026, 10:00] Kepala Madrasah:
+Pak Operator, tolong update data siswa baru yang belum lengkap. Ada 5 siswa yang NIK-nya masih kosong.
+
+[5 Okt 2026, 10:15] Operator:
+Baik Pak, saya proses hari ini.
+
+[8 Okt 2026, 09:00] Kepala Madrasah:
+Pak, untuk anggaran perbaikan komputer lab, mohon dibuatkan proposalnya. Deadline ke Dinas tanggal 20 Oktober.
+
+[8 Okt 2026, 09:30] Operator:
+Siap Pak, saya kerjakan.
+
+[12 Okt 2026, 14:00] Kepala Madrasah:
+Jangan lupa rapat koordinasi hari Jumat jam 13.00 setelah sholat Jumat.
+
+[12 Okt 2026, 14:05] Operator:
+Baik Pak, saya ingatkan Bapak/Ibu Guru.
