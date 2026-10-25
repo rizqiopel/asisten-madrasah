@@ -1,6 +1,7 @@
 """Generate a valid 512x512 PNG avatar without external dependencies."""
 import struct
 import zlib
+from pathlib import Path
 
 W = H = 512
 
@@ -62,7 +63,8 @@ png = (
     + chunk(b"IEND", b"")
 )
 
-out = r"C:/Users/SERVER/.workbuddy-ai/plugins/marketplaces/my-experts/plugins/asisten-madrasah/avatars/asisten-madrasah.png"
+out = Path(__file__).resolve().parent.parent / "expert-package" / "avatars" / "asisten-madrasah.png"
+out.parent.mkdir(parents=True, exist_ok=True)
 with open(out, "wb") as f:
     f.write(png)
 
